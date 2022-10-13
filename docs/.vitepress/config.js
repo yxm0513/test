@@ -1,7 +1,7 @@
 export default {
   title: 'VitePress',
   description: 'Just playing around.',
-  base: '/test/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: 'About', link: '/about' },
