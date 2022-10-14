@@ -24,6 +24,7 @@
     "linux": {}
   },
   "files": [
+    "main.js",
     "docs/.vitepress/dist"
   ],
   "devDependencies": {

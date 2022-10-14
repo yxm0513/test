@@ -9,10 +9,11 @@ let mainWindow;
 	await app.whenReady();
 
 	mainWindow = new BrowserWindow();
+    //mainWindow.webContents.openDevTools()
 
 	await loadURL(mainWindow);
 
 	// The above is equivalent to this:
-	await mainWindow.loadURL('app://localhost');
+	// await mainWindow.loadURL('app://localhost');
 	// The `-` is just the required hostname
 })();
