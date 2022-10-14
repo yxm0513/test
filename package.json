@@ -4,6 +4,9 @@
   "main": "main.js",
   "license": "MIT",
   "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "vdev": "vitepress dev docs",
     "vbuild": "vitepress build docs",
     "vserve": "vitepress serve docs",
